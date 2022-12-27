@@ -25,6 +25,7 @@
     "vite": "^4.0.0"
   },
   "dependencies": {
+    "@iconify/json": "^2.1.157",
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.5.1",
     "clsx": "^1.2.1",

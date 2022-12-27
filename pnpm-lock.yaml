@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@iconify/json': ^2.1.157
   '@solidjs/meta': ^0.28.2
   '@solidjs/router': ^0.5.1
   '@types/node': ^18.11.12
@@ -29,6 +30,7 @@ specifiers:
   vite: ^4.0.0
 
 dependencies:
+  '@iconify/json': 2.1.157
   '@solidjs/meta': 0.28.2_solid-js@1.6.4
   '@solidjs/router': 0.5.1_solid-js@1.6.4
   clsx: 1.2.1
@@ -1404,6 +1406,13 @@ packages:
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
+
+  /@iconify/json/2.1.157:
+    resolution: {integrity: sha512-hMfejLLvAtivI1PSKVbBvTGtIeX/II6DPLcGxJFTIzDA/HhJ/uZxS+Y6XeZPeH7rl+Vjm2X5gNnrYyiosroonw==}
+    dependencies:
+      '@iconify/types': 2.0.0
+      pathe: 0.3.9
+    dev: false
 
   /@iconify/types/2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -4014,6 +4023,10 @@ packages:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
     dev: true
+
+  /pathe/0.3.9:
+    resolution: {integrity: sha512-6Y6s0vT112P3jD8dGfuS6r+lpa0qqNrLyHPOwvXMnyNTQaYiwgau2DP3aNDsR13xqtGj7rrPo+jFUATpU6/s+g==}
+    dev: false
 
   /pathe/1.0.0:
     resolution: {integrity: sha512-nPdMG0Pd09HuSsr7QOKUXO2Jr9eqaDiZvDwdyIhNG5SHYujkQHYKDfGQkulBxvbDHz8oHLsTgKN86LSwYzSHAg==}
